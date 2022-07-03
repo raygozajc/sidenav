@@ -11,7 +11,7 @@ interface SideNavToggle {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'sidenav';
+  title = 'sidenav-with-multilevel-menu';
 
   isSideNavCollapsed = false;
   screenWidth = 0;

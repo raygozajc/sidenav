@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/sidenav'),
+      dir: require('path').join(__dirname, './coverage/sidenav-with-multilevel-menu'),
       subdir: '.',
       reporters: [
         { type: 'html' },
